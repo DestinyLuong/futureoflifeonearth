@@ -79,3 +79,7 @@ width: 550px;
     color: white;
     border-radius: 15px;
 }
+.start:hover, #answer1:hover, #answer2:hover{
+    background-color: rgba(0, 20, 250, .5);
+    transition: all 1s;
+}

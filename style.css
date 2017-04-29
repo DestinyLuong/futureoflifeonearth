@@ -42,10 +42,7 @@ body{
     font-family: "Slabo 27px";
     font-size: 50px;
 }
-.questions, #end{
-    display: none;
-    font-size: 20px;
-}
+
 
 #answer1, #answer2{
     text-align: center;

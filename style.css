@@ -1,0 +1,39 @@
+body{
+    font-family: "Slabo 27px";
+    text-align: center;
+}
+.logo {
+    position:relative;
+}
+.logo img {
+    position:relative;
+    width:100%;
+    height:auto;
+}
+.logo div {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+}
+.logo a {
+    display: block;
+    margin: 0 auto;
+}
+.start {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 15px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.6);
+    padding: 25px 80px 25px 80px;
+    font-size: 50px;
+    font-family: "Slabo 27px";
+}
+#heading {
+    text-align: center;
+    font-family: "Slabo 27px";
+}

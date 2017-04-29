@@ -1,6 +1,10 @@
 body{
     font-family: "Slabo 27px";
     text-align: center;
+    background-color: #7dffb4;
+}
+#describe {
+    font-size: 20px;
 }
 .logo {
     position:relative;
@@ -36,4 +40,42 @@ body{
 #heading {
     text-align: center;
     font-family: "Slabo 27px";
+    font-size: 50px;
+}
+.questions, #end{
+    display: none;
+    font-size: 20px;
+}
+
+#answer1, #answer2{
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 15px;
+    color: #ffffff;
+    background-color: #00abb0;
+    padding: 25px 80px 25px 80px;
+    font-size: 20px;
+    font-family: "Slabo 27px";
+}
+#buisness {
+float: right;
+width: 550px;
+}
+#nature {
+    float: left;
+    width: 550px;
+}
+#job {
+    margin-top: 30px;
+}
+#counter {
+    position: absolute;
+    display: none;
+    padding: 10px 50px 10px 10px;
+    right: 20%;
+    font-family: "Slabo 27px";
+    background-color: #00abb0;
+    color: white;
+    border-radius: 15px;
 }

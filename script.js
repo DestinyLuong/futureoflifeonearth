@@ -51,58 +51,6 @@ $(document).ready(function() {
     
 
 });
-    
-  
-})
-function renderendpage() {
-   
-    if (money > 10) {
-        moneytospend = "lots money"
-    }
-    else if (money > 0) {
-        moneytospend = "some money"
-    }
-    else {
-        moneytospend = "no money"
-    }
-     if (co2 > 10) {
-        amountofcarbon = "lots carbon"
-    }
-    else if (co2 > 0) {
-        amountofcarbon = "some carbon"
-    }
-    else {
-        amountofcarbon = "no carbon"
-    }
-    if (moneytospend === "no money" && amountofcarbon==="no carbon") {
-        $("#results").html("You sacrifice yourself for a free carbon world.");
-        $("body").css("background-color", "blue");    
-    } else if (moneytospend === "no money" && amountofcarbon==="some carbon") {
-        $("#results").html("you sacrifice yourself to maintain a decent amount of carbon world.");
-        $("body").css("background-color", "purple");
-    } else if (moneytospend === "no money" && amountofcarbon === "lots carbon") {
-        $("#results").html("End of the world");
-        $("body").css("background-color", "red");
-    } else if (moneytospend === "some money" && amountofcarbon === "lots carbon") {
-        $("#results").html("Not good enough");
-        $("body").css("background-color", "tan");
-    } else if (moneytospend === "some money" && amountofcarbon === "no carbon") {
-        $("#results").html("You maintain a normal life and less carbon at the same time");
-        $("body").css("background-color", "lightblue");
-    } else if (moneytospend === "some money" && amountofcarbon === "some carbon") {
-        $("#results").html("You maintained the original situation");
-        $("body").css("background-color", "gainsboro");
-    } else if (moneytospend === "lots money" && amountofcarbon === "lots carbon") {
-        $("#results").html("Doesn't care about the environment");
-        $("body").css("background-color", "yellow");
-    } else if (moneytospend === "lots money" && amountofcarbon === "no carbon") {
-        $("#results").html("You benefited and get rich in the meantime.");
-        $("body").css("background-color", "green");
-    } else if (moneytospend === "lots money" && amountofcarbon === "some carbon") {
-        $("#results").html("You maintain the carbon and become rich at the same time");
-        $("body").css("background-color", "orange");
-    }
-}
 
 function changequestion(object) {
     $("#answer1").text(object.answer1);
@@ -157,3 +105,55 @@ var chooseyourprotest= {
  answer2d: 'Choose to counter-protest',
 };
 
+})
+function renderendpage() {
+   
+    if (money > 10) {
+        moneytospend = "lots money"
+    }
+    else if (money > 0) {
+        moneytospend = "some money"
+    }
+    else {
+        moneytospend = "no money"
+    }
+     if (co2 > 10) {
+        amountofcarbon = "lots carbon"
+    }
+    else if (co2 > 0) {
+        amountofcarbon = "some carbon"
+    }
+    else {
+        amountofcarbon = "no carbon"
+    }
+    
+    
+    if (moneytospend === "no money" && amountofcarbon==="no carbon") {
+        $("#results").html("You sacrifice yourself for a free carbon world.");
+        $("body").css("background-color", "blue");    
+    } else if (moneytospend === "no money" && amountofcarbon==="some carbon") {
+        $("#results").html("you sacrifice yourself to maintain a decent amount of carbon world.");
+        $("body").css("background-color", "purple");
+    } else if (moneytospend === "no money" && amountofcarbon === "lots carbon") {
+        $("#results").html("End of the world");
+        $("body").css("background-color", "red");
+    } else if (moneytospend === "some money" && amountofcarbon === "lots carbon") {
+        $("#results").html("Not good enough");
+        $("body").css("background-color", "tan");
+    } else if (moneytospend === "some money" && amountofcarbon === "no carbon") {
+        $("#results").html("You maintain a normal life and less carbon at the same time");
+        $("body").css("background-color", "lightblue");
+    } else if (moneytospend === "some money" && amountofcarbon === "some carbon") {
+        $("#results").html("You maintained the original situation");
+        $("body").css("background-color", "gainsboro");
+    } else if (moneytospend === "lots money" && amountofcarbon === "lots carbon") {
+        $("#results").html("Doesn't care about the environment");
+        $("body").css("background-color", "yellow");
+    } else if (moneytospend === "lots money" && amountofcarbon === "no carbon") {
+        $("#results").html("You benefited and get rich in the meantime.");
+        $("body").css("background-color", "green");
+    } else if (moneytospend === "lots money" && amountofcarbon === "some carbon") {
+        $("#results").html("You maintain the carbon and become rich at the same time");
+        $("body").css("background-color", "orange");
+    }
+}

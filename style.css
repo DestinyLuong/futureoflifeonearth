@@ -1,7 +1,6 @@
 body{
     font-family: "Slabo 27px";
     text-align: center;
-    background-color: #7dffb4;
 }
 #describe {
     font-size: 20px;
@@ -55,7 +54,7 @@ body{
     font-size: 20px;
     font-family: "Slabo 27px";
 }
-#buisness {
+#business {
 float: right;
 width: 550px;
 }

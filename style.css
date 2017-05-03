@@ -79,3 +79,7 @@ width: 550px;
     background-color: rgba(0, 20, 250, .5);
     transition: all 1s;
 }
+
+.questions{
+    display:none;
+}

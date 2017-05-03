@@ -14,6 +14,7 @@ $(document).ready(function() {
     
     if($(event.target).text() === "Environmentalist"){
         changequestion (chooseyourtransportation);
+        
     }
     if($(event.target).text() === "Insulated"){
         changequestion (chooseyourprotest);
@@ -32,7 +33,6 @@ $(document).ready(function() {
     if($(event.target).text() === "Protest"){
         //invoke go to end state function
         renderendpage()
-    }  
     if($(event.target).text() === "Counter-Protest"){
        //invoke go to end state function
        renderendpage()
@@ -48,7 +48,6 @@ $(document).ready(function() {
     if($(event.target).text() === "Non-Insulated"){
         changequestion (chooseyourprotest);
     }
-    
 
 });
 
@@ -157,3 +156,9 @@ function renderendpage() {
         $("body").css("background-color", "orange");
     }
 }
+
+
+ 
+     
+
+
